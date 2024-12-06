@@ -1,76 +1,94 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
   <link rel="stylesheet" href="portfolio.css">
+  <title>Mon portfolio</title>
 </head>
 <body>
-  <!-- Navigation -->
-  <header class="navbar">
-    <div class="logo">MonPortfolio</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#projects">Projets</a></li>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Section Accueil -->
-  <section id="home" class="hero">
-    <h1>Bienvenue</h1>
-    <p>Je suis Cheikh Lotfi, créateur de projets uniques et passionnés.</p>
-  </section>
-
-  <!-- Section Projets -->
-  <section id="projects" class="projects">
-    <h2>Mes Projets</h2>
-    <div class="project-grid">
-      <article class="project-item">
-        <img src="image1.png" alt="Projet 1">
-        <h3>Projet 1</h3>
-        <p>J'ai appris à faire des partitions sur un disque dur pour installer un système d'exploitation comme DEBIAN et Windows avec VMware. J'ai fais du résaux et de la création de dossier à partir du terminal.</p>
-      </article>
-      <article class="project-item">
-        <img src="image2.png" alt="Projet 2">
-        <h3>Projet 2</h3>
-        <p>j'ai appris à faire un site internet, à utiliser les balises nécessaires pour crée un site. Le but de mon projet était de crée un site internet sur une célébrité. </p>
-      </article>
-      <article class="project-item">
-        <img src="image3.png" alt="Projet 3">
-        <h3>Projet 3</h3>
-        <p>Le but de mon projet était de crée un site de fleuriste avec un header qui comportait une page d'accueil, une page ou on montre les personnes de cet entreprise et une page pour montrer les réalisations de cette entreprise.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- Section À propos -->
-  <section id="about" class="about">
-    <h2>À propos de moi</h2>
-    <p>
-      Je m'appelle Lotfi Cheikh, j'ai 19 ans et je suis un jeune passionné d'informatique. J'aimerais me spécialiser dans la cybersécurité si possible dans le métier de Pentester. J'ai eu un baccalauréat spécialités mathématiques et informatiques.
-      Après le bac j'ai fais une première année de faculté en mathématiques et informatiques qui ne m'a pas plus donc j'ai décidé de poursuivre mes études à l'école LaPlateforme.
-    </p>
-  </section>
-
-  <!-- Section Contact -->
-  <section id="contact" class="contact">
-    <h2>Contactez-moi</h2>
-    <form>
-      <input type="text" name="name" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre email" required>
-      <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 MonPortfolio. Tous droits réservés.</p>
-  </footer>
+    <header>
+        <a href="#" class="logo">Lotfi Cheikh</a>
+        <nav class="navigation">
+            <a href="#reseau sociaux">Reseaux Sociaux</a>
+            <a href="#projet" >Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="main" id="reseau sociaux">
+        <article>
+             <h2>Apprenti en informatique<br><span>Future sentinelle du cyberespace</span></br></h2>
+             <a href="CHEIKH_LOTFI_CV copie.pdf" class="main-btn">Mon CV</a>
+             <article class="main-icn" >
+                <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/lotfi-cheikh-137997339/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lotfi-cheikh"><i class="fa-brands fa-github"></i></a>
+            </article>
+             
+        </article> 
+    </section>
+    <section class="cards" id="projet">
+            <h2 class="title">Projets</h2>
+            <section class="box" id="Réalisations" >
+                <article class="content">
+                    <article class="card" id="card">
+                        <article class="icon">
+                            <i class="fa-brands fa-python"></i>
+                        </article>
+                        <article class="info">
+                            <article class="centre">
+                                <h3>Projets python</h3>
+                            </article>
+                            <article class="img">
+                                <img src="morpion.png"/></a>
+                            </article>
+                            <article class="github">
+                                <a href="https://github.com/christian-nelles/Morpion/tree/christian"><i class="fa-brands fa-github"></i></a>
+                            </article>
+                        </article>
+                    </article>
+                </article>
+                <article class="content">
+                <article class="card">
+                        <article class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </article>
+                        <article class="info">
+                            <div class="site">
+                            <article class="centre">
+                                <h3>Projet web</h3>
+                            </article>
+                            <article class="img">
+                                    <img src="site-internet.png"/></a>
+                            </article>
+                            <article class="github">
+                                    <a href="https://github.com/lotfi-cheikh/site-celebrite"><i class="fa-brands fa-github"></i></a>
+                            </article>
+                        </article>
+                    </article>
+                </article>
+                <article class="content">
+                    <article class="card">
+                        <article class="icon">
+                            <i class="fa-solid fa-desktop"></i>
+                        </article>
+                        <article class="info">
+                            <article class="centre">
+                                <h3>Machine virtuelle</h3>
+                            </article>
+                            <article class="img">
+                                <img src="virtuel.png"/>
+                        </article>
+                        <article class="github">
+                                <a href="https://github.com/abderrahmane-hamadache/Fansite"><i class="fa-solid fa-file"></i></a>
+                        </article>
+                    </article>
+                </article>
+            </section>
+    </section>
+    <footer id="contact">
+        <h2>Contactez-moi</h2>
+        <p><strong>Email :</strong> lotfi.cheikh@laplateforme.io</p>
+        <p><strong>Téléphone :</strong> 06.69.39.97.06</p>
+        <p>© 2024 Lotfi Cheikh. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
